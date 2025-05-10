@@ -1,4 +1,3 @@
-
 # Simple Flask Server for Interacting with the `deepset/roberta-base-squad2` Model
 
 This project is a simple Flask server that allows you to interact with the **`deepset/roberta-base-squad2`** question-answering model from Hugging Face's `transformers` library. The model is capable of answering questions based on a provided context.
@@ -14,30 +13,30 @@ This Flask server exposes a single endpoint (`/ask`) that accepts a **POST** req
 - **Model Size**: ~500MB
 - **Model Source**: [Hugging Face Model Hub](https://huggingface.co/deepset/roberta-base-squad2)
 
----
 
 ## Installation
 
 1. **Clone the repository**:
-   ```bash
+
    git clone https://github.com/your-repo/simple-flask-server.git
    cd simple-flask-server
-````
+
 
 2. **Create and activate a virtual environment**:
 
    * On **Windows**:
 
-     ```bash
+ 
      python -m venv venv
      venv\Scripts\activate
-     ```
+
+
    * On **macOS/Linux**:
 
-     ```bash
+
      python3 -m venv venv
      source venv/bin/activate
-     ```
+
 
 3. **Install dependencies**:
 
@@ -128,14 +127,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ```
 
----
-
-### Explanation of Key Sections:
-- **Installation**: Provides the steps to set up the environment, install dependencies, and download the model.
-- **Running the Server**: Details how to run the Flask server.
-- **Usage Instructions**: Explains how to interact with the server using cURL or Postman.
-- **Expected Response**: Shows how the model's answer will be returned in the response.
-- **Troubleshooting**: Tips for dealing with common issues like disk space or model loading problems.
-
-This README should be sufficient for anyone to understand and run your Flask application. Let me know if you need more details!
+Now, the entire `README.md` is in a single markdown block as you requested. Let me know if you need further adjustments!
 ```
